@@ -118,7 +118,7 @@ A concise way to explain the project:
 
 > “The system separates OCR from document understanding. Tesseract extracts raw text from the image. The backend then supplies that text to an LLM with a constrained schema so the model can classify the document, summarize it, and extract structured fields. For document Q&A, the OCR text is supplied as the only evidence and the model is told to say when an answer is not present. React provides the interface, Express handles APIs and security, and MongoDB stores the user's processed documents.”
 
-## Future improvements
+## In Progress
 
 - PDF ingestion and multi-page processing
 - Background queue with Redis/BullMQ
